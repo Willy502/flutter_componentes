@@ -1,4 +1,4 @@
-# flutter_app_1
+# flutter_componentes
 
 Primera aplicación flutter de EduTec
 
