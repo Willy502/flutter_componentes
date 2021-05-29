@@ -4,6 +4,7 @@ import 'package:componentes_app/src/pages/alert_page.dart';
 import 'package:componentes_app/src/pages/avatar_page.dart';
 import 'package:componentes_app/src/pages/card_page.dart';
 import 'package:componentes_app/src/pages/animated_page.dart';
+import 'package:componentes_app/src/pages/input_page.dart';
 
 Map<String, WidgetBuilder> getApplicationRoutes() {
   return <String, WidgetBuilder> {
@@ -11,6 +12,7 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     'alert' : (context) => AlertPage(),
     'avatar' : (context) => AvatarPage(),
     'card' : (context) => CardPage(),
-    'animatedContainer' : (context) => AnimatedPage()
+    'animatedContainer' : (context) => AnimatedPage(),
+    'inputs' : (context) => InputPage()
   };
 }
